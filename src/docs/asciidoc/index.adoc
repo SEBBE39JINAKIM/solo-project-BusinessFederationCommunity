@@ -1,0 +1,76 @@
+= 전국 사업자 연합 커뮤니티 애플리케이션
+:sectnums:
+:toc: left
+:toclevels: 4
+:toc-title: solo project
+:source-highlighter: prettify
+
+Jina Kim <petitjina1999@gmail.com>
+
+v1.0.0, 2022.08.17
+
+***
+== 개인 회원 조회
+.curl-request
+include::{snippets}/get-member/curl-request.adoc[]
+
+.http-request
+include::{snippets}/get-member/http-request.adoc[]
+
+.request-fields
+include::{snippets}/get-member/request-fields.adoc[]
+
+.http-response
+include::{snippets}/get-member/http-response.adoc[]
+
+.response-fields
+include::{snippets}/get-member/response-fields.adoc[]
+
+== 전체 회원 조회
+.curl-request
+include::{snippets}/get-members/curl-request.adoc[]
+
+.http-request
+include::{snippets}/get-members/http-request.adoc[]
+
+.request-fields
+include::{snippets}/get-members/request-fields.adoc[]
+
+.http-response
+include::{snippets}/get-members/http-response.adoc[]
+
+.response-fields
+include::{snippets}/get-members/response-fields.adoc[]
+
+== 특정 회원 조회
+=== 업종별
+.curl-request
+include::{snippets}/get-types/curl-request.adoc[]
+
+.http-request
+include::{snippets}/get-types/http-request.adoc[]
+
+.request-fields
+include::{snippets}/get-types/request-fields.adoc[]
+
+.http-response
+include::{snippets}/get-types/http-response.adoc[]
+
+.response-fields
+include::{snippets}/get-types/response-fields.adoc[]
+
+=== 지역별
+.curl-request
+include::{snippets}/get-locations/curl-request.adoc[]
+
+.http-request
+include::{snippets}/get-locations/http-request.adoc[]
+
+.request-fields
+include::{snippets}/get-locations/request-fields.adoc[]
+
+.http-response
+include::{snippets}/get-locations/http-response.adoc[]
+
+.response-fields
+include::{snippets}/get-locations/response-fields.adoc[]
